@@ -1,0 +1,163 @@
+/*--------------------------------
+   General page styling
+--------------------------------- */
+
+body {
+    background-color: #f2f6f3;
+    color: #263238;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* --------------------------------
+   Header
+--------------------------------- */
+
+header {
+    background-color: #234d3c;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+}
+
+
+/* --------------------------------
+   Navigation bar
+--------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    background-color: #ffffff;
+    color: #234d3c;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+}
+
+
+/* --------------------------------
+   Sections
+--------------------------------- */
+
+section {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hero {
+    background-color: #dceee3;
+    text-align: center;
+    border-bottom: 2px solid #234d3c;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+
+/* --------------------------------
+   Club cards
+--------------------------------- */
+
+.club-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.club-card {
+    background-color: white;
+    width: 250px;
+    min-height: 350px;
+    padding: 20px;
+    border: 2px solid #b8cfc0;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.club-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.club-card h3 {
+    color: #234d3c;
+}
+
+
+/* --------------------------------
+   Buttons and links
+--------------------------------- */
+
+.button {
+    display: inline-block;
+    background-color: #234d3c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #234d3c;
+}
+
+/* --------------------------------
+   Individual club pages
+--------------------------------- */
+
+.club-page {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #b8cfc0;
+    border-radius: 12px;
+}
+
+.club-page h2 {
+    color: #234d3c;
+}
+
+.club-page h3 {
+    color: #3b7258;
+}
+
+.club-page p {
+    line-height: 1.6;
+}
+
+
+/* Main club image */
+
+.main-image {
+    width: 500px;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #234d3c;
+    border-radius: 10px;
+}
+
+
+/* --------------------------------
+   Lists
+--------------------------------- */
+
+ul {
+    line-height: 1.8;
+}
